@@ -28,7 +28,7 @@ jQuery(document).ready(function($) {
     $("#rss-feeds").rss(
     
         //Change this to your own rss feeds
-        "http://feeds.feedburner.com/tutsplus/nav",
+        "https://feeds.feedburner.com/tutsplus/nav",
         
         {
         // how many entries do you want?
