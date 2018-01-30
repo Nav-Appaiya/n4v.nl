@@ -1,0 +1,16 @@
+{
+    "name": "nav/navappaiya",
+    "description": "Personal portfolio HTML on n4v.nl",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^4.0",
+        "facebook/graph-sdk": "^5.6"
+    },
+    "authors": [
+        {
+            "name": "Nav Appaiya",
+            "email": "navarajh@gmail.com"
+        }
+    ]
+}

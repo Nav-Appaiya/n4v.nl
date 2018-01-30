@@ -88,6 +88,7 @@
                 <i class="fa fa-code pull-left"></i><span>Email me<br><small>Send me a e-mail</small></span></a>
             <a class="btn btn-lg btn-success " href="http://dotstrap.com/">
                 <i class="fa fa-github-alt pull-left"></i><span>Github<br><small>Check my code</small></span></a>
+
         </div>
 
     </div><!--//container-->
