@@ -16,3 +16,4 @@ Todo:
 - rewrite this to Symfony 4 with proper backend for management of conent
 - Adding blog functionality for sharing PHP development news / newsfeed
 
+This repository is hooked on Plesk with Automated deployment when changes apply to the Master branch (protected).  
