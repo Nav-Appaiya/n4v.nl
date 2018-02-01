@@ -9,17 +9,17 @@
 
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(), event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-NP4CXBC');</script>
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NP4CXBC');</script>
     <!-- End Google Tag Manager -->
 
     <title>Nav Appaiya | Freelance PHP developer in Symfony, Laravel and Wordpress. </title>
@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
 
     <!-- github calendar css -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
 
     <!-- github acitivity css -->
     <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
@@ -86,7 +86,7 @@
         <div class="pull-right">
             <a class="btn btn-lg btn-primary" href="mailto:navarajh@gmail.com">
                 <i class="fa fa-code pull-left"></i><span>Email me<br><small>Send me a e-mail</small></span></a>
-            <a class="btn btn-lg btn-success " href="http://dotstrap.com/">
+            <a class="btn btn-lg btn-success " href="https://github.com/nav-appaiya/">
                 <i class="fa fa-github-alt pull-left"></i><span>Github<br><small>Check my code</small></span></a>
 
         </div>
@@ -99,7 +99,8 @@
         <div class="primary col-md-8 col-sm-12 col-xs-12">
             <section class="github section">
                 <div class="section-inner">
-                    <h2 class="heading">My GitHub activity: <a href="https://github.com/nav-appaiya">@Nav-Appaiya</a></h2>
+                    <h2 class="heading">My GitHub activity: <a href="https://github.com/nav-appaiya">@Nav-Appaiya</a>
+                    </h2>
 
                     <div id="github-graph" class="github-graph">
 
@@ -128,6 +129,42 @@
                     </div><!--//content-->
                 </div><!--//section-inner-->
             </section><!--//section About Me-->
+
+            <section class="experience section">
+                <div class="section-inner">
+                    <h2 class="heading">Work Experience</h2>
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title">Marketing Automation Specialist at Exact - <span class="place"><a
+                                            href="#">Exact Cloud Solutions, Delft</a></span> <span
+                                        class="year">(2016 - Present)</span></h3>
+                            <p>This is my current job as Developer and Marketing Automation specialist at Exact Cloud
+                                Solutions in Delft. As Marketing automation specialist I am working in the PHP
+                                development and improvement of all the marketing sites in all the countries we are
+                                active in. Working in Scrum with a awsome team on new technologies. </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="title">Magento extension Developer - <span class="place"><a
+                                            href="#">Stockbase</a></span> <span class="year">(2016)</span></h3>
+                            <p>As backend developer I was working for Stockbase to make a extension for Magento. This
+                                extension connected the stock suppliers to the webshops, which made the process
+                                automated and suppliers less work to deliver products. Very intersting project, and
+                                realized 2 Magento extensions (for M1 & M2) while working fully individual on this
+                                project.</p>
+                        </div><!--//item-->
+
+                        <div class="item">
+                            <h3 class="title">Backend PHP Developer - <span class="place"><a href="#">Notive</a></span>
+                                <span class="year">(2014 - 2016)</span></h3>
+                            <p>As full backend developer at Notive, we worked on alot of integrations and making
+                                middleware for all kind of businesses. We worked with scrum, in diffrent frameworks like
+                                Codeigniter, Symfony and Craft CMS. This was the best learning spot for me as developer,
+                                and I have learned alot from other developers with all their own expertise.</p>
+                        </div><!--//item-->
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section Work Expierience-->
 
             <section class="latest section">
                 <div class="section-inner">
@@ -171,7 +208,7 @@
                             <div class="desc col-md-8 col-sm-8 col-xs-12">
                                 <h3 class="title"><a href="https://github.com/Nav-Appaiya/NavWunderlistBundle"
                                                      target="_blank">NavWunderlistBundle - Manage Wunderlist with
-                                    PHP</a></h3>
+                                        PHP</a></h3>
                                 <p>This is a Symfony 2 Wunderlist bundle which helps you integrate your Wunderlist Tasks
                                     in you Symfony application. It uses the Wunderlist API to connect to your account
                                     and retrieve all tasks from there. Also you can create, update or delete tasks
@@ -198,11 +235,11 @@
                                 unique tweet each time it gets hit by a special url. It is built with Symfony 3 and
                                 GuzzleHTTP 3. </p>
                             <p><a class="more-link" href="https://github.com/Nav-Appaiya/twitterbot" target="_blank"><i
-                                    class="fa fa-external-link"></i> View on Github</a></p>
+                                            class="fa fa-external-link"></i> View on Github</a></p>
                         </div><!--//item-->
                         <div class="item">
                             <h3 class="title"><a href="https://github.com/Nav-Appaiya/WooCommerce-Bundle">Symfony
-                                WooCommerce-Bundle</a> <span class="label label-theme">Open Source</span></h3>
+                                    WooCommerce-Bundle</a> <span class="label label-theme">Open Source</span></h3>
                             <p class="summary">A small project that I did to make my own life easier when working with
                                 Woocommerce inside my Symfony projects. This bundle can integrate external woocommerce
                                 webshops into Symfony with the Woo-API. Also there is support for multiple shops, and
@@ -213,7 +250,7 @@
                         </div><!--//item-->
                         <div class="item">
                             <h3 class="title"><a href="https://github.com/Nav-Appaiya/TradeTracker">Symfony
-                                Tradetracker</a> <span class="label label-theme">Open Source</span></h3>
+                                    Tradetracker</a> <span class="label label-theme">Open Source</span></h3>
                             <p class="summary">This is a small integration bundle that I wrote to encorporate
                                 TradeTracker into Symfony. This has no direct use, but has alot of configuration setup
                                 to start working with Tradetracker through their API. You can finde some examples in the
@@ -224,65 +261,39 @@
                         </div><!--//item-->
 
                         <a class="btn btn-cta-secondary" href="https://github.com/Nav-Appaiya/">More on Github <i
-                                class="fa fa-chevron-right"></i></a>
+                                    class="fa fa-chevron-right"></i></a>
 
                     </div><!--//content-->
                 </div><!--//section-inner-->
             </section><!--//section Latest projedcts-->
 
-            <section class="experience section">
-                <div class="section-inner">
-                    <h2 class="heading">Work Experience</h2>
-                    <div class="content">
-                        <div class="item">
-                            <h3 class="title">Marketing Automation Specialist at Exact - <span class="place"><a
-                                    href="#">Exact Cloud Solutions, Delft</a></span> <span
-                                    class="year">(2016 - Present)</span></h3>
-                            <p>This is my current job as Developer and Marketing Automation specialist at Exact Cloud
-                                Solutions in Delft. As Marketing automation specialist I am working in the PHP
-                                development and improvement of all the marketing sites in all the countries we are
-                                active in. Working in Scrum with a awsome team on new technologies. </p>
-                        </div><!--//item-->
-                        <div class="item">
-                            <h3 class="title">Magento extension Developer - <span class="place"><a
-                                    href="#">Stockbase</a></span> <span class="year">(2016)</span></h3>
-                            <p>As backend developer I was working for Stockbase to make a extension for Magento. This
-                                extension connected the stock suppliers to the webshops, which made the process
-                                automated and suppliers less work to deliver products. Very intersting project, and
-                                realized 2 Magento extensions (for M1 & M2) while working fully individual on this
-                                project.</p>
-                        </div><!--//item-->
-
-                        <div class="item">
-                            <h3 class="title">Backend PHP Developer - <span class="place"><a href="#">Notive</a></span>
-                                <span class="year">(2014 - 2016)</span></h3>
-                            <p>As full backend developer at Notive, we worked on alot of integrations and making
-                                middleware for all kind of businesses. We worked with scrum, in diffrent frameworks like
-                                Codeigniter, Symfony and Craft CMS. This was the best learning spot for me as developer,
-                                and I have learned alot from other developers with all their own expertise.</p>
-                        </div><!--//item-->
-
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </section><!--//section Work Expierience-->
         </div><!--//primary-->
         <div class="secondary col-md-4 col-sm-12 col-xs-12">
+
+
             <aside class="info aside section">
                 <div class="section-inner">
                     <h2 class="heading sr-only">Basic Information</h2>
                     <div class="content">
                         <ul class="list-unstyled">
-                            <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Spijkenisse, the
+
+                            <li>
+                                <i class="fa fa-link"></i><span class="sr-only">Website:</span>
+                                <a href="https://n4v.nl">https://n4v.nl</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope-o"></i>
+                                <span class="sr-only">Email:</span><a href="#">navarajh@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <span class="sr-only">Location:</span>Spijkenisse, The
                                 Netherlands
-                            </li>
-                            <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">navarajh@gmail.com</a>
-                            </li>
-                            <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="https://n4v.nl">https://n4v.nl</a>
                             </li>
                         </ul>
                     </div><!--//content-->
                 </div><!--//section-inner-->
-            </aside><!--//aside-->
+            </aside><!--//aside introduction-->
 
             <aside class="skills aside section">
                 <div class="section-inner">
@@ -317,7 +328,7 @@
 
                             <div class="item">
                                 <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span
-                                        class="level-label">Expert</span></h3>
+                                            class="level-label">Expert</span></h3>
                                 <div class="level-bar">
                                     <div class="level-bar-inner" data-level="70%">
                                     </div>
@@ -333,11 +344,11 @@
                             </div><!--//item-->
 
                             <p><a class="more-link" href="https://github.com/nav-appaiya"><i
-                                    class="fa fa-external-link"></i> Check my work at Github</a></p>
+                                            class="fa fa-external-link"></i> Check my work at Github</a></p>
                         </div>
                     </div><!--//content-->
                 </div><!--//section-inner-->
-            </aside><!--//section-->
+            </aside><!--//section skills-->
 
             <aside class="education aside section">
                 <div class="section-inner">
@@ -353,7 +364,36 @@
                         </div><!--//item-->
                     </div><!--//content-->
                 </div><!--//section-inner-->
-            </aside><!--//section-->
+            </aside><!--//section education-->
+
+            <aside class="contact aside section">
+                <div class="section-inner">
+                    <div class="content">
+                        <form role="form">
+                            <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                                <span class="help-block"><p id="characterLeft" class="help-block ">I will return </p></span>
+                            </div>
+
+                            <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>                            <br style="clear:both">
+
+                        </form>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//aside contact -->
 
             <aside class="languages aside section">
                 <div class="section-inner">
@@ -363,25 +403,29 @@
                             <li class="item">
                                 <span class="title"><strong>Dutch:</strong></span>
                                 <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i
-                                        class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-                                        class="fa fa-star"></i> </span>
+                                            class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                            class="fa fa-star"></i> <i
+                                            class="fa fa-star"></i> </span>
                             </li><!--//item-->
                             <li class="item">
                                 <span class="title"><strong>English:</strong></span>
                                 <span class="level">Native Speaker<br class="visible-xs"/><i class="fa fa-star"></i> <i
-                                        class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-                                        class="fa fa-star"></i> </span>
+                                            class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                            class="fa fa-star"></i> <i
+                                            class="fa fa-star"></i> </span>
                             </li><!--//item-->
                             <li class="item">
                                 <span class="title"><strong>Tamil:</strong></span>
                                 <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i
-                                        class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-                                        class="fa fa-star-half"></i></span>
+                                            class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                            class="fa fa-star"></i> <i
+                                            class="fa fa-star-half"></i></span>
                             </li><!--//item-->
                         </ul>
                     </div><!--//content-->
                 </div><!--//section-inner-->
-            </aside><!--//section-->
+            </aside><!--//section languages -->
+
 
             <!-- TODO: Fix this latest post feed (not working currently) -->
             <aside class="blog aside section hidden">
@@ -401,7 +445,7 @@
 <footer class="footer">
     <div class="container text-center">
         <small class="copyright">Developed with <i class="fa fa-heart"></i> by <a href="https://n4v.nl" target="_blank">
-            Nav Appaiya </a></small>
+                Nav Appaiya </a></small>
     </div><!--//container-->
 </footer><!--//footer-->
 
