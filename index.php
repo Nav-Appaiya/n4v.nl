@@ -369,8 +369,11 @@
             <aside class="contact aside section">
                 <div class="section-inner">
                     <div class="content">
-                        <form role="form">
+                        <form role="form" method="post" action="contact.php" id="contact-form">
+
                             <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+                            <!-- Validation on form submission -->
+                            <div class="messages"></div>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
                             </div>
@@ -378,19 +381,21 @@
                                 <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number">
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
-                                <span class="help-block"><p id="characterLeft" class="help-block ">I will return </p></span>
+                                <span class="help-block"><p id="characterLeft" class="help-block ">Please be sure to leave your correct email and phonenumber so I can contact you.  </p></span>
                             </div>
 
-                            <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>                            <br style="clear:both">
-
+                            <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>                            <br style="clear:both">
                         </form>
+
+
+
                     </div><!--//content-->
                 </div><!--//section-inner-->
             </aside><!--//aside contact -->
@@ -453,6 +458,8 @@
 <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+
 <!-- github calendar plugin -->
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
